@@ -16,22 +16,7 @@ This project implements a library management application using Python and MySQL.
 - MySQL Connector for Python (`mysql-connector-python`)
 - Additional Python libraries: `numpy`, `pandas` (specified in `requirements.txt`)
 
-## Installation
 
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
-    ```
-
-2. Install the required Python packages:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Set up the MySQL database using the provided SQL scripts or initialize it with `data.csv`.
 
 ## Usage
 
@@ -103,14 +88,3 @@ This project implements a library management application using Python and MySQL.
 
 The database schema includes tables for books, users, and borrowing records. The design ensures that each book and user has a unique identifier, and borrowing records link books and users with constraints to prevent borrowing of unavailable books or deletion of users/books involved in active borrowings.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or feedback, please reach out via [your email address] or create an issue in the GitHub repository.
